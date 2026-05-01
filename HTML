@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aamir Online Traders</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Aamir Online Traders</h1>
+    <p>Custom Products | Daily Use Items | Pure Desi Products</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#custom">Custom Order</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="hero">
+    <h2>Welcome</h2>
+    <p>We create customized gifts and provide quality daily products.</p>
+</section>
+
+<section id="products">
+    <h2>Our Products</h2>
+
+    <div class="grid">
+        <div class="card">T-Shirts (Custom)</div>
+        <div class="card">Caps</div>
+        <div class="card">Mugs</div>
+        <div class="card">Keychains</div>
+        <div class="card">Honey</div>
+        <div class="card">Desi Ghee</div>
+        <div class="card">Butter</div>
+        <div class="card">Daily Use Items</div>
+    </div>
+
+</section>
+
+<section id="custom">
+    <h2>Custom Order</h2>
+
+    <form onsubmit="sendToWhatsApp(event)">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="text" id="product" placeholder="Product Name" required>
+        <textarea id="details" placeholder="Custom details..."></textarea>
+        <button type="submit">Order on WhatsApp</button>
+    </form>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>📞 0334 2597609</p>
+</section>
+
+<a class="whatsapp" href="https://wa.me/923342597609" target="_blank">Chat on WhatsApp</a>
+
+<footer>
+    <p>© 2026 Aamir Online Traders</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
